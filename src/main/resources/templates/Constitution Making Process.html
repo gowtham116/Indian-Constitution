@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+
+    <!-- Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="/css/styles1.css" />
+
+    <title>WEB-CONSITUTION-HOME</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+                    <div class="nav__hamburger">
+                        <svg>
+              <use xlink:href="./images/sprite.svg#icon-menu"></use>
+            </svg>
+                    </div>
+
+                    
+
+                    <div class="nav__menu">
+                        <div class="menu__top">
+                            <span class="nav__category">PHONE</span>
+                            <a href="#" class="close__toggle">
+                                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-cross"></use>
+                </svg>
+                            </a>
+                        </div>
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                 <a class="nav-link active" aria-current="page" th:href="@{/home}">Home</a>
+                            </li>
+                            
+                             <li class="nav__item">
+                                 <a class="nav-link active" aria-current="page" th:href="@{/Constitution Making Process}">Constitution Making Process</a>
+                            </li>
+                            
+                            
+                             
+                        </ul>
+                    </div>
+
+                    <div class="nav__icons">
+                        <a href="#" class="icon__item">
+                            <svg class="icon__user">
+                <use xlink:href="./images/sprite.svg#icon-user"></use>
+              </svg>
+                        </a>
+
+                        <a href="#" class="icon__item">
+                            <svg class="icon__search">
+                <use xlink:href="./images/sprite.svg#icon-search"></use>
+              </svg>
+                        </a>
+
+                       
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        
+                
+
+               
+    </header>
+    <!-- End Header -->
+
+     <main id="main">
+    <div class="container">
+      <!-- Collection -->
+   
+ <section>
+ 
+  <img th:src="@{/images/pro.jpg}" class="img-thumbnail" alt="..."><br>
+  <b> 
+  <p>First Session of the Constituent Assembly
+13th December 1946 - 22nd January 1947</p></b>
+ </section>    
+     <section id="collection" class="section collection">
+  
+  <p>The Constituent Assembly formally began its task of framing the Constitution of India on the 13th of December, 1946 with Jawaharlal Nehru moving the Objectives Resolution. The purpose of the resolution was to “… proclaim India as an Independent Sovereign Republic and to draw up for her future governance a Constitution...” The resolution put forth broad principles that would inform the working of the Constituent Assembly. The Constituent Assembly adopted the resolution on 22 January 1947.</p>
+  
+    </section>   
+  
+ 
+
+                               
+                       
+            
+ 
+        
+        
+    </main>
+
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer__top">
+                 
+                <div class="footer-top__box">
+                    <h3>INFORMATION</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-top__box">
+                    <h3>MY ACCOUNT</h3>
+                    <a href="#">My Account</a>
+                    <a href="#">Order History</a>
+                    <a href="#">Wish List</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Returns</a>
+                </div>
+                <div class="footer-top__box">
+                    <h3>CONTACT US</h3>
+                    <div>
+                        <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-location"></use>
+              </svg>
+            </span> KLUNIVERSITY, VADDESWARAM, KRISHNA, INDIA
+                    </div>
+                    <div>
+                        <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+              </svg>
+            </span> webconsitution@gmail.com
+                    </div>
+                    <div>
+                        <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+            </span> 96761-1890-23
+                    </div>
+                    <div>
+                        <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
+              </svg>
+            </span> Vijayawada
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer-bottom__box">
+
+            </div>
+            <div class="footer-bottom__box">
+
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+   
+
+    <!-- Go To -->
+
+    <a href="#header" class="goto-top scroll-link">
+        <svg>
+      <use xlink:href="./images/sprite.svg#icon-arrow-up"></use>
+    </svg>
+    </a>
+
+
+    <!-- Glide Carousel Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="/js/products.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/slider.js"></script>
+
+</body>
+
+</html>
